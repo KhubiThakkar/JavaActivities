@@ -15,7 +15,7 @@ public class EmployeeMain {
 		emp.setMobile(sc.next());
 		
 		System.out.println(emp);
-		
+		emp.menu(emp);
 		sc.close();
 	}
 }
